@@ -27,5 +27,5 @@ http.createServer(function (req, res) {
   res.write(store.getState().toString());
   res.end();
 }).listen(3000, function(){
- console.log("server start at port 3000");
+ console.log("server start at port 3001");
 });
